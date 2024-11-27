@@ -1,0 +1,5 @@
+requests
+getpass4
+numpy
+pandas
+requests-oauth2client
