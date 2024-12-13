@@ -12,8 +12,9 @@ More information on kdb Accelerators, which use cases are available, and their a
 
 The following Accelerator notebooks are available:
 
-- [ICE Orderbook](https://github.com/KxSystems/accelerators-samples/ICE-OrderBook)
-- [ICE Fixed Income](https://github.com/KxSystems/accelerators-samples/ICE-Fixed-Income)
+- [ICE Orderbook](https://github.com/KxSystems/accelerators-samples/tree/main/ICE-OrderBook)
+- [ICE Fixed Income](https://github.com/KxSystems/accelerators-samples/tree/main/ICE-Fixed-Income)
+- [ICE Equity Analytics](https://github.com/KxSystems/accelerators-samples/tree/main/ICE-Equity-Analytics)
 
 ## Installation
 
