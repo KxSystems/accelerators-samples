@@ -15,16 +15,18 @@ The following Accelerator notebooks are available:
 - [ICE Orderbook](https://github.com/KxSystems/accelerators-samples/tree/main/ICE-OrderBook)
 - [ICE Fixed Income](https://github.com/KxSystems/accelerators-samples/tree/main/ICE-Fixed-Income)
 - [ICE Equity Analytics](https://github.com/KxSystems/accelerators-samples/tree/main/ICE-Equity-Analytics)
+- [Bloomberg Equity Analytics](https://github.com/KxSystems/accelerators-samples/tree/main/BLOOMBERG-Equity-Analytics)
+- [Bloomberg BPIPE](https://github.com/KxSystems/accelerators-samples/tree/main/BLOOMBERG-BPIPE)
 
 ## Installation
 
 1. The necessary pip installs are available in a `requirements.txt` in each directory.
 
-    (optional) To see a comprehensive list of requirements, see the `requirements.txt` file in the repository.
+   (optional) To see a comprehensive list of requirements, see the `requirements.txt` file in the repository.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## View & Execute The Samples
 
@@ -32,12 +34,12 @@ Samples can be run directly in Visual Studio Code using the Jupyter plugin, or r
 
 1. Run a Jupyter notebook session:
 
-    ```bash
-    jupyter notebook --no-browser
-    ```
+   ```bash
+   jupyter notebook --no-browser
+   ```
 
-    This will load up the jupyter session in the background and display a URL on screen for you.
+   This will load up the jupyter session in the background and display a URL on screen for you.
 
 1. Paste this URL into your browser
 
-    This will bring up the samples for you to interact with.
+   This will bring up the samples for you to interact with.
