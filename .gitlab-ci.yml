@@ -18,6 +18,7 @@ sync_to_github:
     - git config --global url.https://${GITHUB_PAT}@github.com/.insteadOf https://github.com/
   script:
     - git remote add github "${KXSYSTEMS_GITHUB_REPO}"
+    - git fetch --tags
     - git fetch origin "$CI_COMMIT_BRANCH"
     - git checkout -B "$CI_COMMIT_BRANCH" "origin/$CI_COMMIT_BRANCH"
     - |
@@ -48,6 +49,9 @@ sync_to_github:
       else
         echo "No changes to push."
       fi
+
+      # Push tags
+      git push github --tags
   rules:
     - if: '$CI_COMMIT_BRANCH == "main"'
       when: manual
