@@ -8,6 +8,11 @@ kdb Accelerators are packages for kdb products that address typical industry use
 
 More information on kdb Accelerators, which use cases are available, and their associated documentation is available on [code.kx.com](https://code.kx.com/insights/accelerators).
 
+## Release Notes
+
+* 2026.03.06 Tag: `ie-1.17` - Compatibility changes for 1.17
+* 2025.10.14 Tag: `pre-ie-1.17` - Compatible with IE versions < 1.17
+
 ## Available notebooks
 
 The following Accelerator notebooks are available:
